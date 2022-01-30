@@ -1,0 +1,27 @@
+
+
+
+fonskiyonlarýn adresleri var
+
+nasýl bir dizinin ismir bir ifade içinde kullanýldýðýnda dizinin ilk elemanýnýn adresine dönüþtürülüyor ise
+array decay (array to pointer conversion)
+bir fonksiyonda bir ifade içinde kullanýldýðýnda o fonksiyonun adresine dönüþtürülür.
+function to pointer conversion
+
+
+
+function call operator
+
+1 ()
+
+
+Dikkat
+tüm object pointers sizeof deðeri aynýdýr.
+
+tüm function pointers sizeof deðeri aynýdýr
+
+object pointer sizeof deðeri ile function pointer sizeof degeri
+
+===============================================================
+void qsort(void *vpa, size_t size, size_t sz, int (*fp)(const void*, const void*))
+===============================================================

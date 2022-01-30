@@ -1,0 +1,59 @@
+//34.ders
+
+eðer bir fonksiyon
+
+a) bir yazýyý bir dizye yerleþtirme niyetinde ise
+b) bir yazýyý (büyüme ihtimali ile) deðiþtirme niyetinde ise
+
+eðer dizinin boyutunu almaz ise diziyi taþýrma riski içerir
+
+===============================================
+
+dizinin boyutunu almýyorlar
+sorumluluðu fonksiyonu çaðýran koda veriyorlar 
+
+geleneksel standar C fonksiyonlarý dizi boyutu almazlar!!
+
+
+DÝKKAT!!!
+her ne kadar null karakter yaziya dahil olmasada strchr ile null karakteri aratabilirsiniz.
+
+======================================================================
+pointer idiom
+while(*p != '\0')
+	++p;
+
+while (*p)
+	++p;
+
+while (*p++)
+	;
+--p;
+
+p += strlen(p);
+
+p = strchr(p, '\0');
+
+//DÝkkat strcpy fonksiyonu pointer hatalarýna açýk
+1. parametreye adresi geçilen dizi yeterince büyük olmalý
+/7bundan fonksiyon çaðrýsýný yapan kod sorumlu
+
+overlapped block(kesiþen bloklar)
+
+Eðer bir okuma-yazma iþlevi kesiþen bloklar üstünde yapýlýyorsa (overlapped block)
+std C iþlevleri
+
+//bu tür kopyalama iþlemlerini bu güvenceyi veren
+//memmove iþlevi ile yapýlmalýdýr.
+int main()
+{
+	char str[SIZE] = "necati";
+
+	strcpy(str + 2,str);//ub
+
+	printf("%s\n",str);
+}
+
+lexicographical compare
+
+container comparison

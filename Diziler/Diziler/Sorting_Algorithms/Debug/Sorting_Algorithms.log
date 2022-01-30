@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\Sorting_Algorithms\main.c(15,2): warning C4013: 'srand' undefined; assuming extern returning int
+C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\Sorting_Algorithms\main.c(15,2): warning C4013: 'time' undefined; assuming extern returning int
+  Sorting_Algorithms.vcxproj -> C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\Debug\Sorting_Algorithms.exe

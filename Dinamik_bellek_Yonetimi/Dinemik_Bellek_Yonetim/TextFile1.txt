@@ -1,0 +1,46 @@
+
+
+fun(??)
+{
+	nesne oluþturuluyor ve 
+	bu nesnenin adresinin çaðýran koda iletiyor
+}
+
+
+kendisini çaðýran koda kendisinin oluþturduðu bir nesnneyi iletmesini saðlamak istiyoruz
+
+
+heap = static ömürlü nesnnelerin tutulduðu alan. Dinaimk alanda ayrýlan belleklerde heapte tutulur.
+stack = otoatik ömürlü nesnelerin tutulduðu alan
+
+void* malloc(size_t n);
+void* calloc(size_t n, size_t sz);
+void* realloc(void *vp, size_t newsize);
+void free(void* vp);
+
+dikkat 
+ardaþýk  yapýlan malloc çaðrýlarý edinilmiþ bellek bloklarýný büyütmek zorunda deðil
+asla daha önce edinilmiþbir bellek bloðunu büyütmek için malloc iþlevini çaðýrmayýn
+
+
+==========================================================================================
+
+1) Asla dinamik bellek iþlevleriyle elde edilmemiþ olan bellek bloklarýný free etme giriþiminde bulunmayýn (ub)
+2) Free iþlevi ile dinamik bellek bloðunu küçültemezsiniz.
+3) free çaðrýsýndan sonra  bellek bloðunun adresini tutmakta olan pointer geçersiz (invalid ) pointer olur
+4) free edilmiþ bir bellek bloðunun yeniden free edilme giriþimi
+5) dinamik bellek bloðunun free edilmemesi
+
+
+pd = malloc( n * sizeof(int));
+
+memset(pd, 0, n * sizeof(int)); // bellek alanýný temizleme iþi güvenlik amacýyla yapýlýyor
+free(pd);
+
+
+Dinamik ömürlü nesne oluþturuluyor
+nesneyi set ediyor
+adresini döndürüyor
+char *strdup(const char *pstr);
+
+memory fragmentation

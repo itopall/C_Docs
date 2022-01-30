@@ -1,0 +1,101 @@
+
+
+NULL pointer
+
+NULL bir pointer' dýr.(bir sembolik sabittir)
+bir keyword deðildir. Bir identifier deðil.
+Null makrosu C'nin bazu baþlýk dosyalarýnda tanýmlanmýþtýr.
+stdio.h
+string.h
+stdlib.h
+stddef.h
+time.h
+
+NULL bir adres sabitidir. (NULL pointer diye okunur)
+Bu adres sabiti pointer deðiþkenlere ilk deðer olarak verilebilir ya da atanabilir.
+NULL pointer deðerini pointer olmayan bir deðiþkene atamayýn
+NULL pointer herhangi türden bir pointer deðiþkene atanabilir.
+
+bir pointer deðiþkenin deðeri NULL pointer ise bu pointer geçerli (valid) pointer'dýr.
+DEðeri NULL pointer olan bir pointer deðiþken (semantik olarak) hiçbri nesneyi göstermeyen bir deðiþkendir.
+
+Deðeri NNULL pointer olan bir pointer deðiþkeni
+	deference etmek
+	*ptr ptr[i] 
+tanýmsýz davranýþ
+	toplama
+	çýkarma
+	++
+	--
+	iki pointer farký bulma
+
+Eðer iki pointer deðiþkenin ikisinin de deðeri NULL pointer ise bu iki ptr deðiþken deðerce eþittir.
+-----------------------------------------------
+Ýlk deðer verilmemiþ global deðiþkenler ve static yerel pointer deðiþkenler hayata
+NULL pointer deðeri ile baþlatýlýr.
+-----------------------------------------------
+C ' de Lojik ifade beklenen yerlerede bir adres ifadesi kullanýlabilir.
+Bu durumda lojik yorumlama pointer deðerinin NULL pointer olup olmamasýna 
+
+if(ptr) 
+if(ptr != NULL)
+
+benzer þekilde
+
+if(ptr == NULL)
+if(!ptr)
+
+--------------------------------------------------
+Normal olarak bir pointer deðiþkene bir adres atanamalýdýr
+BÝr pointer deðiþkene bir tam sayý atanmasý C++ dilinde geçersiz C dilinde yanlýþtýr.
+Ama bu durumun bir istisnasý vardýr
+Eðer bir pointer deðikene tam sayý sabiti olarak 0 deðeri atanýrsa
+derleyici 0 tam saý sabiti(implicitly) NULL pointer deðerine dönüþtürür.
+int *p = NULL;
+int *p = 0;
+
+ptr = NULL;
+ptr = 0;
+
+NULL pointer nerelerde kullanýlýr?
+1. adres döndüren bir iþlevin baþarýsýzlýk durumunda NULL pointer döndürüyor.
+
+2. Arama(search) fonksiyonlarý C'de genellikle adres döndürüyorlar.
+   Aranan deðer bulunursa o deðere sahip nesnenin adresini bulunamaz ise  NULL pointer döndürürler
+
+3. Bir fonksiyonun parametresinin bir pointer olmasý durumunda (normal olarak) böyle bir fonksiyona
+	bir nesne adaresi göndermemiz gerekiyor.NULL pointer gönderilirse u.b. olur
+	Ancak bazý fonksiyonlar çaðýran kodlarýn NULL pointer göndermelerini bir seçenek olarak veriyorlar
+
+
+örenðin
+	bana ya bir nesne adresi geçeceksin
+	ya da NULL pointer geçeceksin
+
+4. 
+	int *ptr = NULL;
+	if(expr)
+	{
+		ptr = nesne adresi;
+	}
+
+5. Dinamik bellek yönetimi
+	
+	ptr = nesne adresi;
+
+	pointer deðiþkenimizin hayatý devam ederken onun göstermekte olduðu nesnenin hayatý sona eriyor
+	// pointer invalidation
+
+
+
+NULL pointer				null character
+
+NULL						'\0'
+Adres sabiti				tam sayý sabiti
+pointer deðiþkene atanýr	bir char dizinin elemanýna (bir int deðiþkene atanýyor)
+
+
+
+
+
+

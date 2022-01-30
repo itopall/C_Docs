@@ -1,0 +1,5 @@
+
+
+C ' de çok boyutlu dizi yoktur
+C'de aslýnda çok boyutlu diziler
+	elemanlarý dizi olan diziler

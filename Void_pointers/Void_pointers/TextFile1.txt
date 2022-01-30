@@ -1,0 +1,41 @@
+
+
+
+
+C ve C++ dillerinde bir ifadenin türü void olabilir.
+
+int ival = 10;
+
+(void)ival;
+
+//bir pointer türü 
+//her türden pointer deðer verilebilir.
+
+
+generic programlama (türden baðýmsýz programlama)
+
+generic function popular in C 
+these function are in the string.h library
+
+void* memset(void *vp, int val, size_t sz);
+void* memcpy(void *vpdest, const void *vpsource, size_t n);
+void* memmove(void *vpdest, const void *vpsource, size_t n);
+void* memchr(const void* vp, int val, size_t n);
+int memcmp(const void* vpx,const void* vpy, size_t n);
+
+türden baðýmsýz olarak bir diziyi reverse eden fonksiyon
+
+void** türü de generic bir pointer türü müdür?
+HAAYIR
+
+void * türünden bir nesnenin adresi olan tür
+void * vptr;
+&vptr türü void** 'dýr;
+
+int c = 10;
+double d = 3.21;
+
+void *vptr;
+void** vp = &vptr;
+*vp = &c;
+*vp = &d;

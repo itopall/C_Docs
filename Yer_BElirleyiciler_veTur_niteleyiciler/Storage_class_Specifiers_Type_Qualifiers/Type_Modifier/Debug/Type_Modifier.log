@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\ilker\Desktop\C_Kurs\Yer_BElirleyiciler_veTur_niteleyiciler\Storage_class_Specifiers_Type_Qualifiers\Type_Modifier\main.c(30,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'const int *'
+  Type_Modifier.vcxproj -> C:\Users\ilker\Desktop\C_Kurs\Yer_BElirleyiciler_veTur_niteleyiciler\Storage_class_Specifiers_Type_Qualifiers\Debug\Type_Modifier.exe

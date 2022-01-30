@@ -1,0 +1,116 @@
+
+
+bitwise operators
+
+--------------------------------------
+2	~ (bitwise not)
+--------------------------------------
+5	>>  << (bitwise left/right shift)
+--------------------------------------
+8	& (bitwise and)
+--------------------------------------
+9	^ (bitwise exor)
+--------------------------------------
+10	| (bitwise or)
+--------------------------------------
+14 &=  ^=  |=  >>=  <<=   (bitwise compand)
+-------------------------------------
+
+bitwise not 
+11101101
+00010010
+~x
+
+bitwise left shift (soldan besleme(feed) iþlemleri 0 biti ile olacak)
+<<
+
+a << b
+sað operand negatif ise 
+yada
+sað operand sol operand olan ifadenin ait olduðu türün bit sayýsýna eþit ya da büyükse UB
+
+bitwise right shift
+eðer sol operand iþaretsiz ise
+besleme 0
+
+eðer sol opreand iþaretli ama pozitif deðeri ise 
+besleme 0
+
+eðer sol operand iþaretli ama negatif deðer ise 
+	soldan yapýlacak beslemenin (implementation define)
+	0
+	1
+>>
+
+besleme 1 ise aritmetik besleme (sign extension)
+besleme 0 ise lojik besleme
+
+
+x exor y
+
+!!x != !!y
+
+1 exor 1 ==> 0
+0 exor 0 ==> 0
+1 exor 0 ==> 1
+0 exor 1 ==> 1
+
+
+============================================================
+bir tam sayýnýn (belirli) bir bitini birlemek
+to set the bit
+to turn the bit on
+
+bir tam sayýnýn (belirli) bir bitini sýfýrlamak
+
+to reset the bit
+to clear the bit
+to turn the bit off
+
+bir tam sayýnýn (belirli) bir btini deðiþtirmek
+to flip the bit
+to toggle the bit
+
+bir tam sayýnýn (belirli) bir bitinin 1 mi 0 mý olduðunu anlamak
+to get the bit
+
+bitmask
+
+biti birlemek
+x | (1 << n) //x 'in n. bitini 1 yaptýk
+
+biti sýfýrlamak
+x & ~(1 << n) // x ' in n. bitini sýfýrladýk
+
+biti flip etmek
+x ^ ( 1 << n) //x 'in n. bitinin toggle'dýk
+
+bit get etmek
+if ( x & (1 << n)) n. bitin 0 veya 1 olup olmadýðý öðrendik
+
+
+16 bitlik bir (unsigned)tamsayýmýz var ortasýndaki 8 biti get etmek
+
+x << 4 >> 8
+
+
+KULLNIM ALANI
+bir iþaretsiz tam sayýnýn bitlerini bir boolean vector olaarak kullanmak
+
+//ACABA ben bir tamsayýnýn belirli bit alanlarýný ayrý bir deðiþken olarak kullanabilir miyim?
+
+unsigned int 
+uint16_t x;
+
+-------- -------- -------- ccbbbaaa
+
+1) elime ne geçecek
+
+bitfields members of structures
+yapýlarýn bit alaný elemanlarý
+
+DOS
+
+endianness
+	little endian
+	big endian

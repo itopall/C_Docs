@@ -1,0 +1,19 @@
+
+//Typedef kullanýmý
+
+//eðer nasýl bir bildirim yapacaðýmýzý bilmiyorsak
+
+1. hangi türe eþ isim verecekseniz o türden bir deðiþken tanýmlayýn
+2. tanýmlamanýn baþýna typedef anaftar sözcüðü yazýn
+3. deðiþkenin yerine tür eþ ismini koyun
+
+////typedef taþýnabilirlik saðlýyor.
+
+size_t' nin türü sizeof(x) 'in ürettiði deðerdir //unsigned int unssigned long unsigned long long olabilir.
+
+standart kütüphane size_t türünü nerelerde kullanýyor
+
+1) fonksiyonlarýn sizeof deðeri isteyen parametre türü
+2) dizi boyutu türü
+3) yazý uzunluðu türü 
+4) tane - adet türü

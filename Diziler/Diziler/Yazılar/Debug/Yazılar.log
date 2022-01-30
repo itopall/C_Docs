@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\Yazılar\main.c(23,13): warning C4013: 'rand' undefined; assuming extern returning int
+C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\Yazılar\main.c(301,2): warning C4013: 'srand' undefined; assuming extern returning int
+C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\Yazılar\main.c(301,2): warning C4013: 'time' undefined; assuming extern returning int
+  Yazılar.vcxproj -> C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\Debug\Yazılar.exe

@@ -1,0 +1,98 @@
+const ne'den önce gelirse const olan o dur
+int *const p = &x; //p ye atma yapamam;
+int const *p = &x; //yýldýz p ye atama yapamam;
+
+
+//Pointer ARitmetiði\\
+C dilinde 
+a) bir adresle bir tamsayý toplanabilir
+a) bir tamsayý ile bir adres toplanabilir
+a) bir adresten bir tam sayý çýkartýlabilir 
+
+tüm bu iþlemler geçerlidir
+bu iþlemlerin sonucu adrestir.
+
+C dilinde 
+	bir adrese 1 toplandýðýnda bir sonraki (ayný türden) nesnenin adresini elde ederiz
+
+& = adress operatörü
+* = içerik operatörü(asterisk)
+[ ] = index/subscript operatörü
+
+-----------------------------
+içerik operatörü kullanýmý
+a[b]
+*(a + b) //anlamýna geliyor
+
+ptr[n]		=== *(ptr + n)
+&ptr[n]		===	  ptr + n
+ptr[0]		===  *ptr
+-----------------------------
+
+C ve C++ da iki adresin toplanmasý geçersizdir.
+
+---------------------
+Adreslerin birbirinden çýkarýlmasý
+
+int a[10];
+
+&a[5] - &a[2] = 3
+
+C dilinde 2 adresin farký iþaretli türden tam sayýdýr.
+
+Bir dizinin daha büyük indeksli bir elemanýn adresinden daha küçük indeksli bir elemanýn adresini
+çýkartýrsak pozitif tam sayý elde ederiz.
+
+Bir dizinin daha küçük indekli bir elemanýnýn adresinden daha büyük indeksli bir elemanýn adresini 
+çýkartýrsak negatif bir tam sayý elde ederiz.
+
+ptr,  a isimli bir dizinin bir elemanýný göstermektedir. ptr'nin gösterdiði dizi elemanýnýn indisi nedir?
+cevap = ptr - a;
+
+//idenksi bilmek ile adresi bilmek arasýnda fark yoktur
+---------------------------
+iki adres farkýnýn kullanýlabilir bir ifade olmasý için ayný dizinin elemanlarýnýn adreslerinin
+biribirinden çýkarýlmasý gerekir.
+-----------------------------------
+
+DÝZÝLERÝN FONKSÝYONLARA GÖNDERÝLMESÝ
+
+// SALT okuma iþlemi için kullanacaksak bir fonk. const anahtar sözcüðü kullanýlýr.
+void afunc(const int *ptr, int size); 
+
+
+--------------------------------
+kullanýlabilir ve kullanýlamaz pointerler
+valid/invalid pointers
+
+//GEçerli durumlar
+//pointer deðiþken hayattaki bir nesnenin adresini tutuyor ise;
+	int x = 10;
+	int *ptr = &x;
+// pointer deðiþken bir dizinin bittiði yerin adresini tutuyor ise
+//pointer deðiþkenin deðeri NULL pointer ise
+
+
+---------------------------------
+Pointerlar ve karþýlaþtýrma iþlemleri
+
+< <= > >=
+== != 
+
+iki pointer == ve != operatörleri ile karþýlatýrýlabilir.
+
+iki pointer'ýn eþitliðinin doðru sonuçlanabilmesi için
+
+a) her iki pointer da ayný nesnenin adresi olmalý
+b) her iki pointer da ayný dizinin bittiði yerin adresi olmalý
+void printArray(const int *p,const int * pend)
+{
+	while (p != pend)
+	{
+		printf("%3d ",*p);
+		++p;
+	}
+	printf("\n");
+}
+
+c) her iki pointer'ýn deðeri NULL pointer ise eþitliði kontrol edilebilir.

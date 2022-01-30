@@ -1,0 +1,24 @@
+stirng literalleri salt okuma amaçlý kullanýlabiliecek dizilerdir.
+bir string literalini deðiþtirme giriþimi "UB" undefined behaivor
+
+
+
+--------------------------------------
+string literalleri static ömürlüdür.
+	programýn baþýndan sonuna kadar bellekte kalýrlar
+	yazý adresi döndüren bir fonksiyonun bir string literali (adresi) döndürmesi ub deðildir.
+--------------------------------------
+
+
+Dikkat 
+kod içindeki özdeþ(ayný) string literalleri karþýlýðý derleyicilerin
+	a) bunlarý tek dizi olarak tutmalarý
+	b) ayrý ayrý birden fazla dizi kullanmalari
+
+	tamamen derleyiciye baðlidir.
+
+hatta birçok derleyicide switchleri ile bunu deðiþtirebiliyorsunuz.
+
+Aman dikkat adresleri karþýlaþtýrmak ile yazýlarý karþýlaþtýrmak sýk yapýlan bir hata
+=====================================================================================
+uzun string literallerinin kodda birden fazla kod satýrýna yayýlmasý

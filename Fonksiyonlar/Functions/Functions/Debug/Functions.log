@@ -1,0 +1,169 @@
+﻿  main.c
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(29,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(49,12): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 3 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): warning C4477: 'fscanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'char *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): message : consider using '%hhd' in the format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 9 has type 'double *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 11 has type 'float *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): warning C4477: 'fscanf_s' : format string '%lf' requires an argument of type 'double *', but variadic argument 12 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 13 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): message : this argument is used by a conversion specifier
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 14 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): message : placeholders and their parameters expect 18 variadic arguments, but 14 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(54,26): message : the missing variadic argument 15 is required by format string '%f'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(66,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(66,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(66,13): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(66,13): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(72,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(72,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(72,13): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(72,13): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(74,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(74,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(74,13): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(74,13): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(80,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(80,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(80,13): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(80,13): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(94,14): warning C4013: 'close' undefined; assuming extern returning int
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(46,11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(43,9): warning C4101: 'choice': unreferenced local variable
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 3 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): warning C4477: 'fscanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'char *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): message : consider using '%hhd' in the format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 9 has type 'double *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 11 has type 'float *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): warning C4477: 'fscanf_s' : format string '%lf' requires an argument of type 'double *', but variadic argument 12 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 13 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): message : this argument is used by a conversion specifier
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 14 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): message : placeholders and their parameters expect 18 variadic arguments, but 14 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(109,27): message : the missing variadic argument 15 is required by format string '%f'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(104,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 3 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): warning C4477: 'fscanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'char *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): message : consider using '%hhd' in the format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 9 has type 'double *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 11 has type 'float *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): warning C4477: 'fscanf_s' : format string '%lf' requires an argument of type 'double *', but variadic argument 12 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 13 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): message : this argument is used by a conversion specifier
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 14 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): message : placeholders and their parameters expect 18 variadic arguments, but 14 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(145,26): message : the missing variadic argument 15 is required by format string '%f'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(156,25): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(156,25): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(156,25): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(156,25): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(140,11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(141,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 3 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): warning C4477: 'fscanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'char *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): message : consider using '%hhd' in the format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 9 has type 'double *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 11 has type 'float *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): warning C4477: 'fscanf_s' : format string '%lf' requires an argument of type 'double *', but variadic argument 12 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 13 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): message : this argument is used by a conversion specifier
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 14 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): message : placeholders and their parameters expect 18 variadic arguments, but 14 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(221,26): message : the missing variadic argument 15 is required by format string '%f'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(216,11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(217,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(227,17): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 3 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): warning C4477: 'fscanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'char *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): message : consider using '%hhd' in the format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 9 has type 'double *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 11 has type 'float *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): warning C4477: 'fscanf_s' : format string '%lf' requires an argument of type 'double *', but variadic argument 12 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 13 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): message : this argument is used by a conversion specifier
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 14 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): message : placeholders and their parameters expect 18 variadic arguments, but 14 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(304,26): message : the missing variadic argument 15 is required by format string '%f'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(300,11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(301,14): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 3 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): warning C4477: 'fscanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'char *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): message : consider using '%hhd' in the format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 9 has type 'double *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 11 has type 'float *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): warning C4477: 'fscanf_s' : format string '%lf' requires an argument of type 'double *', but variadic argument 12 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 13 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): message : this argument is used by a conversion specifier
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 14 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): message : placeholders and their parameters expect 18 variadic arguments, but 14 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(366,30): message : the missing variadic argument 15 is required by format string '%f'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(400,40): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(419,17): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(419,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(419,17): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(419,17): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 3 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): warning C4477: 'fscanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 7 has type 'char *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): message : consider using '%hhd' in the format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 9 has type 'double *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 11 has type 'float *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): warning C4477: 'fscanf_s' : format string '%lf' requires an argument of type 'double *', but variadic argument 12 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'char *', but variadic argument 13 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): message : this argument is used by a conversion specifier
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): warning C4477: 'fscanf_s' : format string '%s' requires an argument of type 'unsigned int', but variadic argument 14 has type 'int *'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): message : this argument is used as a buffer size
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): message : placeholders and their parameters expect 18 variadic arguments, but 14 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(420,30): message : the missing variadic argument 15 is required by format string '%f'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(453,40): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(358,11): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(375,21): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(382,26): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(390,26): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(398,26): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(406,26): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(422,17): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(428,21): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(435,26): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(443,26): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(451,26): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(459,26): error C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(514,6): error C2371: 'close': redefinition; different basic types
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(558,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(558,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(558,13): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\ilker\Desktop\C_Kurs\Fonksiyonlar\Functions\Functions\main.c(558,13): message : this argument is used as a buffer size

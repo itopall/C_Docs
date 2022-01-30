@@ -1,0 +1,84 @@
+
+C dilinde fonksiyonun parametresi bir dizi olamaz
+C dilinde fonksiyonun geri dönüþ deðeri dizi olamaz
+Diziler fonksiyonlardan fonksiyonlara call by value biçiminde aktarýlamýyorlar
+
+
+[ ] index /  subscript operator
+
+-------------------------------------
+1 ()  [ ] . ->
+-------------------------------------
+
+
+Bir dizi ismi bir ifade içinde kullanýldýðýnda(bir iki istisna haricinde) 
+her zaman dizinin ilk elemanýnýn adresine dönüþtürülür
+
+array decay
+array to pointer conversion
+//bir dizinin ismini ifade þeklinde kullanýlýrsa onu pointer'a dönüþtürüyor
+
+a  ===> &a[0 ]
+
+***Dizilerde eleman sayýsýndan daha az eleman girilmiþse çöp deðerle deðil 0 deðeri ile baþlar.
+
+int a[10];//böyle yazlýrsa çöp deðerle baþlar
+
+
+/*int a[10] = { 0 };
+	for (int i = 0; i < 10; ++i)
+	{
+		printf("a[%d] = %d\n", i, a[i]);
+	}*/
+
+	//Designated Initializor kullanýmý
+	//int a[] = { [5] = 13,[3] = 45,[1] = 17 }; //dizinin boyutu 6'dýr
+
+	//int a[10] = { 0,1,2,3,4,5,6,7,8,9 };
+	//for (int i = 0; i < 10; ++i)
+	//{
+	//	printf("%d ", i[a]); //kullanýmý doðru a[i] = i[a]
+	//}
+
+
+int a[SIZE];
+	int sum = 0;
+
+
+	randomize();
+	set_array_random(a, SIZE);
+	print_array(a, SIZE);
+	//elemanlarýnýn toplamý
+	for (int i = 0; i < SIZE; ++i)
+		sum += a[i];
+
+	printf("sum = %d\n", sum);
+	//aritmetik ort
+	printf("ortalama = %f\n", (double)sum / SIZE);
+
+
+a)bir dizininn hem çiftlerin hemde teklerin ortalamasýný hesaplayýn 
+
+int main()
+{
+	int x = 10;
+	int c = 1;
+
+	printf("%zu\n",sizeof x + 5);//çýktý 9
+	printf("%zu\n",sizeof (x + 5));//çýktý 4
+	printf("%zu\n",sizeof (x + 5.));//çýktý 8
+	printf("%zu\n",sizeof c));//çýktý 1
+	printf("%zu\n",sizeof +c));//çýktý 4 //sebebi integral promotion
+}
+
+//unevaluated context
+int main()
+{
+	int x = 10;
+	printf("%zu\n" , sizeof(++x));
+	printf("%d\n",x);//çýktý 10
+}
+
+///--------------------------------------------\\\
+max subsequence sum
+///--------------------------------------------\\\

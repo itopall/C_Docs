@@ -1,0 +1,5 @@
+﻿  nutility.c
+  main.c
+C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\YaziToSayi\main.c(10,7): warning C4101: 'str': unreferenced local variable
+  Generating Code...
+  YaziToSayi.vcxproj -> C:\Users\ilker\Desktop\C_Kurs\Diziler\Diziler\Debug\YaziToSayi.exe

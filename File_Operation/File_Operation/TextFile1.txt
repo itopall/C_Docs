@@ -1,0 +1,45 @@
+
+
+=========================================
+a) dosyadan okuma (read)
+b) dosyaya yazma (write)
+c) dosya konum göstericisi (file pointer)
+
+
+
+fopen
+hangi modda açtýðýmýz
+2) dosya varsa ne olacak yoksa ne olacak
+2) dosyadan okuma dosyaya yazma
+
+açýþ modu				(varsa/yoksa)											ne yapabilirim
+	
+okuma +(read)			varsa açýlacak yoksa açýlmayacak						okuyabilirim / yazabilirim
+
+yazma +(write)			varsa truncate yoksa oluþturulacak						yazabilirim / okuyabilirim
+	
+sona ekleme +(append)		varsa açýlacak yoksa oluþturulacak					sona yazabilirim / okuyabilirim
+
+
+dosyalar 
+text modunda
+binary modunda
+açabiliriz.
+
+"r"	okuma	"rb" binary mod
+"w"	yazma	"wb"
+"a"	append	"ab"
+
+"r+" "r+b" "rb+"
+"w+" "w+b" "wb+"
+"a+" "a+b" "ab+"
+
+-----------------------------
+FILE* fopen(const char *pfname, const char *popenmode);
+int fclose(FILE *);
+int fcloseall(void); //std deðil
+int fgetc(FILE *);
+
+
+sequential access (sýralý eriþim)
+random access

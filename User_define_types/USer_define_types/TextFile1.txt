@@ -1,0 +1,156 @@
+
+
+user-defined types
+programcý tarafýndan oluþturulan dürler
+kodla oluþturulan türler
+
+data types
+
+structures (yapýlar)
+union (birlikler)
+enumarations (numaralandýrmalar)
+
+
+bir yapý türünün sizeof deðer (stroge ihtiyacý) elemanlarýnýn sizeof
+deðerlerinin toplamý kadardýr. (ileride "alignment" hizalama konusunda)
+
+struct Data {
+	int a, b, c;
+	double dval;
+}; gibi bildirimler hafýza da yer ayýrmazlar.
+
+yapý nesnesinin elemanlarýna eriþim için
+
+member selection operators.
+
+-----------------------------------------------
+1 [] () . ->				(soldan saða)
+-----------------------------------------------
+dot operator (nokta operatörü)
+arrow operator (ok operatörü)
+
+struct  nesneleri atama operatörünün operandý olabilirler
+
+bibbr yapý nesnesine atama operatörü ile
+ancak ve ancak
+ayný türden bir baþka yapý nesnesini atayabiliriz.
+
+
+yapý nesnelerinin adresleri
+
+binary infix
+
+x->y
+
+ok operatörünün sol operandý bir yapý türünden adres(pointer) olmak zorunda
+
+yapýlar ve typedef bildirimleri
+
+
+//aþaðýdaki gibi bir typedef bildirimi ile 
+//bildirimi yapýlan yapý türünden
+//yalnýzca dinamik ömürlü nesne oluþturulabilir.
+//otomatik ömürlü ya da statik ömürlü deðiþken tanýmlanamaz.
+typedef struct {
+	int x,y;
+	double dval;
+}*DataPtr;
+
+
+-------------------------------------------------
+C'de parametresi yapý türünden olan fonksiyonlar sýk görülmez(neden)
+
+void func(struct Data); //call by value
+
+//get - getter - accessor function
+void func2(const struct Data *); //call by reference //input parameter
+
+//setter mutator
+void func2(struct Data *); //output parameter //in-out parameter
+
+
+struct Data f1(????);
+struct Data *f2(????); // En çok karþýmýza çýkacak olan
+const struct Data *f3(?????);
+
+-------------------------------------------------
+otomatik ömürlü nesneyi return olarak kullanma
+------------------------------------------------
+
+
+----------------------------------------------------
+<time.h>
+
+time_t time(time_t *ptr);
+struct tm* localtime(const time_t* p);
+struct tm* gmtime(const time_t *p);
+char* ctime(const time_t *p);
+char* asctime(const struct tm* p);
+size_t strftime(char *pa, size_t size, const char *pf, const struct tm *p);
+clock_t clock(void);
+---------------------------------------------------
+
+
+
+
+###################################################
+complete types 
+incomplete types
+
+Bir yapý türünü belirli baðlamlarda "incomplete type" olarak kullanabiliriz.
+
+global deðiþkenlerin extern bildirimleri yapýlabilir.
+
+aþaðýdaki iþlemler için yap türünün complete type olmasý gerekiyor
+
+yapý türünden deðiþken tanýmlamak
+yapý türünden pointer'larý
+	* operatörünün operandý yapmak
+	-> operatörünün operandý yapmak
+
+
+
+
+Node (düðüm)
+
+struct Node {
+	data
+	struct data *p;
+	struct Data *p;
+}
+
+Nerelerde kullanýlýr
+linked lists
+trees
+	binary search tree
+graph
+
+
+linked lists
+dynamic array
+
+cache-friendly
+
+
+Handle technique
+
+
+Alignment requirement
+
+Herhangi bir türün adreslenmesi kaç byte ise o türün katlarýna göre adresleme yapmaya denir
+
+
+
+Union
+Birliklerin tüm elemnalarýnýn adresleri ayný
+bir birlik nesnenin adresi ile elemanlarýnýn adresleri ayný
+
+Birlik elemanlarý ayný bellek alanýný paylaþýyorlar.
+
+Bir veriyi iki farklý þekilde temsil etmek
+
+öyle bir deðiþkenki (önceden belirlenmiþ) farklý türlerden deðerler tutabilecek
+
+
+tagged union (etiketlenmiþ birlik)
+

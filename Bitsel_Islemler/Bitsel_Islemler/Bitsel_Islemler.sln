@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bitsel_Islemler", "Bitsel_Islemler\Bitsel_Islemler.vcxproj", "{2703D7F7-D0AF-4BAD-B012-6476509DBF44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2AB8180-20AB-4354-ABEF-D86D797F3D0D}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bitwise_using_area", "Bitwise_using_area\Bitwise_using_area.vcxproj", "{071AC8AD-2FB0-450F-93BA-E015B07DE223}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2703D7F7-D0AF-4BAD-B012-6476509DBF44}.Debug|x64.ActiveCfg = Debug|x64
+		{2703D7F7-D0AF-4BAD-B012-6476509DBF44}.Debug|x64.Build.0 = Debug|x64
+		{2703D7F7-D0AF-4BAD-B012-6476509DBF44}.Debug|x86.ActiveCfg = Debug|Win32
+		{2703D7F7-D0AF-4BAD-B012-6476509DBF44}.Debug|x86.Build.0 = Debug|Win32
+		{2703D7F7-D0AF-4BAD-B012-6476509DBF44}.Release|x64.ActiveCfg = Release|x64
+		{2703D7F7-D0AF-4BAD-B012-6476509DBF44}.Release|x64.Build.0 = Release|x64
+		{2703D7F7-D0AF-4BAD-B012-6476509DBF44}.Release|x86.ActiveCfg = Release|Win32
+		{2703D7F7-D0AF-4BAD-B012-6476509DBF44}.Release|x86.Build.0 = Release|Win32
+		{071AC8AD-2FB0-450F-93BA-E015B07DE223}.Debug|x64.ActiveCfg = Debug|x64
+		{071AC8AD-2FB0-450F-93BA-E015B07DE223}.Debug|x64.Build.0 = Debug|x64
+		{071AC8AD-2FB0-450F-93BA-E015B07DE223}.Debug|x86.ActiveCfg = Debug|Win32
+		{071AC8AD-2FB0-450F-93BA-E015B07DE223}.Debug|x86.Build.0 = Debug|Win32
+		{071AC8AD-2FB0-450F-93BA-E015B07DE223}.Release|x64.ActiveCfg = Release|x64
+		{071AC8AD-2FB0-450F-93BA-E015B07DE223}.Release|x64.Build.0 = Release|x64
+		{071AC8AD-2FB0-450F-93BA-E015B07DE223}.Release|x86.ActiveCfg = Release|Win32
+		{071AC8AD-2FB0-450F-93BA-E015B07DE223}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE522478-EE48-4644-B912-78663449A2C6}
+	EndGlobalSection
+EndGlobal

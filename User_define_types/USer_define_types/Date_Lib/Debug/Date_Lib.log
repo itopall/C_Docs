@@ -1,0 +1,5 @@
+﻿  date.c
+  main.c
+  Generating Code...
+C:\Users\ilker\Desktop\C_Kurs\User_define_types\USer_define_types\Date_Lib\date.c(241): warning C4715: 'set': not all control paths return a value
+  Date_Lib.vcxproj -> C:\Users\ilker\Desktop\C_Kurs\User_define_types\USer_define_types\Debug\Date_Lib.exe

@@ -1,0 +1,63 @@
+
+storage class specifiers (yer belirleyiciler)
+auto
+register
+extern
+static
+
+
+type qualifier( modifiers) (tür niteleyiciler)
+const 
+volatile
+restrict
+
+linkage(baðlantý)
+
+
+
+register int x = 10; // derleyiciye bu deðiþkenin register'da (yazmaçta) tutulmasý ricasýný iletiyorsunuz.
+register anahtar kelimesi
+	yerel deðiþkenler
+	parametre deðiþkenleri için kullanýlabilir.
+	global deðiþkenlerin tanýmýnda kullanýlamaz
+
+register deðiþkenlerin & operatörünün operandý olmasý geçersiz
+
+
+
+isimlerin baðlantý (linkage) kavramý
+external linkage
+internal linkage
+no linkage
+
+
+asla ve asla
+
+bir global deðiþkenin tanýmýný baþlýk dosyasýnda yapmayýn!!!
+
+a) global bir deðiþkenin birden fazla kaynak dosyada ismi ile kullanýlmasýný istiyorum
+	bir kaynak dosyada tanýmlayacaksýnýz ((.c uzantýlý))
+	baþlýk dosyasýnda extern bildirimi yapacaksýnýz(.h uzantýlý)
+
+
+b) global bir deðiþkenin tek bir kaynak dosyada ismi ile kullanýlmasýný istiyorum (diðer kaynak dosyalarýnda kullanýlmamasýný)
+	static int g = 10; //kaynak dosyada bildirim
+	baþlýk dosyasýna bildirim koyulmayacak
+
+include ettiðimiz birden fazla baþlýk dosyasýndan gelen isimler çakýþýrsa
+	ya compile time hatasý gerçekleþir
+	ya da linker zamaný hatasý gerçekleþir
+
+bir projede dýþ baðlantýya açýlmýþ isimler tek olmalý çakýþmamalý
+
+
+type modifier
+
+^^const correctness^^^ 
+
+neden const?
+
+ASLA ASLA ASLA const bir deðiþkeni deðiþtirmeye kalkýþmayýn
+
+volatile
+restrict

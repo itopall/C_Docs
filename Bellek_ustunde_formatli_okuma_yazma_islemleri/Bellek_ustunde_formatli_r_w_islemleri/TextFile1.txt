@@ -1,0 +1,13 @@
+
+
+BEllek üstünde formatlý okuma yazma iþlemleri
+
+formatlý giriþ çýkýþ iþlemleri
+
+formatlý çýkýþ iþlemleri
+
+std output
+
+	printf			->		çýktýsýný standart outputa veriyor
+	sprintf			->		çýktýsýný belleðe veriyor
+	fprintf			->		çýktýsýný dosyaya veriyor

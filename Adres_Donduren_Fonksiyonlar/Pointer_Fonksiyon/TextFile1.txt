@@ -1,0 +1,14 @@
+Adres döndüren bir fonksiyon asla otomatik ömürlü bir nesne döndürmemelidir.
+
+1) statik ömürlü nesnelerin adresleri
+	a) global deðiþken
+	b) static yerel deðiþkenler
+	c) string literalleri
+
+2)çaðýran koddadn aldýðý adresi
+
+3) dinamik ömürlü nesne adres
+
+çaðýran koddan aldýðý adresi döndürebilir.
+
+const cast
